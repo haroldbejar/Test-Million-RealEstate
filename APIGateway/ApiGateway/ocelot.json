@@ -1,0 +1,101 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/account/{everything}",
+      "UpstreamHttpMethod": ["POST"],
+      "DownstreamPathTemplate": "/api/Account/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "authservice",
+          "Port": 8080
+        }
+      ],
+      "Key": "AuthenticationRoute"
+    },
+    {
+      "UpstreamPathTemplate": "/owners",
+      "UpstreamHttpMethod": ["POST"],
+      "DownstreamPathTemplate": "/api/Owners",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ownerservice",
+          "Port": 8080
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/owners/{everything}",
+      "UpstreamHttpMethod": ["GET", "PUT", "DELETE"],
+      "DownstreamPathTemplate": "/api/Owners/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ownerservice",
+          "Port": 8080
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/properties",
+      "UpstreamHttpMethod": ["GET"],
+      "DownstreamPathTemplate": "/api/Properties",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "propertyservice",
+          "Port": 8080
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/properties",
+      "UpstreamHttpMethod": ["POST"],
+      "DownstreamPathTemplate": "/api/Properties",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "propertyservice",
+          "Port": 8080
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/properties/search",
+      "UpstreamHttpMethod": ["GET"],
+      "DownstreamPathTemplate": "/api/Properties/search",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "propertyservice",
+          "Port": 8080
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/properties/{id}",
+      "UpstreamHttpMethod": ["GET", "PUT", "DELETE"],
+      "DownstreamPathTemplate": "/api/Properties/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "propertyservice",
+          "Port": 8080
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://apigateway:8080"
+  }
+}

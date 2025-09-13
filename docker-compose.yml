@@ -1,0 +1,109 @@
+version: "3.8"
+
+services:
+  webapp:
+    container_name: webapp
+    build:
+      context: .
+      dockerfile: webapp/Dockerfile
+    ports:
+      - "8080:80"
+    restart: always
+
+  apigateway:
+    container_name: apigateway
+    build:
+      context: .
+      dockerfile: APIGateway/ApiGateway/Dockerfile
+    ports:
+      - "8000:8080"
+    depends_on:
+      - authservice
+      - ownerservice
+      - propertyservice
+    restart: always
+    # NOTA: Es posible que la configuración de ocelot.json dentro de APIGateway necesite ser actualizada
+    # para apuntar a los nombres de los servicios de Docker en lugar de localhost.
+    # Por ejemplo, "Host": "authservice", "Port": 8080 en lugar de "Host": "localhost", "Port": 8001
+
+  authservice:
+    container_name: authservice
+    build:
+      context: .
+      dockerfile: AuthService/Dockerfile
+    ports:
+      - "8001:8080"
+    environment:
+      # Estas variables anulan la configuración en appsettings.json.
+      # Asegúrate de que tu aplicación .NET esté configurada para leer estas secciones.
+      - DatabaseSettings__ConnectionString=mongodb://auth-db:27017
+      - DatabaseSettings__DatabaseName=AuthDB
+      - ASPNETCORE_URLS=http://+:8080
+    depends_on:
+      - auth-db
+    restart: always
+
+  auth-db:
+    image: mongo:latest
+    container_name: auth-db
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - auth-data:/data/db
+
+  ownerservice:
+    container_name: ownerservice
+    build:
+      context: .
+      dockerfile: OwnerService/Dockerfile
+    ports:
+      - "8002:8080"
+    environment:
+      - ConnectionStrings__MongoDb=mongodb://owner-db:27017
+      - ConnectionStrings__DatabaseName=OwnerDB
+      - ASPNETCORE_URLS=http://+:8080
+    depends_on:
+      - owner-db
+    restart: always
+
+  owner-db:
+    image: mongo:latest
+    container_name: owner-db
+    restart: always
+    ports:
+      - "27018:27017"
+    volumes:
+      - owner-data:/data/db
+
+  propertyservice:
+    container_name: propertyservice
+    build:
+      context: .
+      dockerfile: PropertyService/Dockerfile
+    ports:
+      - "8003:8080"
+    environment:
+      - ConnectionStrings__MongoDb=mongodb://property-db:27017
+      - ConnectionStrings__DatabaseName=PropertyDB
+      - ASPNETCORE_URLS=http://+:8080
+    depends_on:
+      - property-db
+    restart: always
+
+  property-db:
+    image: mongo:latest
+    container_name: property-db
+    restart: always
+    ports:
+      - "27019:27017"
+    volumes:
+      - property-data:/data/db
+
+volumes:
+  auth-data:
+    driver: local
+  owner-data:
+    driver: local
+  property-data:
+    driver: local

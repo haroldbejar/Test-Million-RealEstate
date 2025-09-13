@@ -1,0 +1,12 @@
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Domain\bin\Debug\net9.0\OwnerService.Domain.deps.json
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Domain\bin\Debug\net9.0\OwnerService.Domain.dll
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Domain\bin\Debug\net9.0\OwnerService.Domain.pdb
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Domain\obj\Debug\net9.0\OwnerService.Domain.csproj.AssemblyReference.cache
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Domain\obj\Debug\net9.0\OwnerService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Domain\obj\Debug\net9.0\OwnerService.Domain.AssemblyInfoInputs.cache
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Domain\obj\Debug\net9.0\OwnerService.Domain.AssemblyInfo.cs
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Domain\obj\Debug\net9.0\OwnerService.Domain.csproj.CoreCompileInputs.cache
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Domain\obj\Debug\net9.0\OwnerService.Domain.dll
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Domain\obj\Debug\net9.0\refint\OwnerService.Domain.dll
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Domain\obj\Debug\net9.0\OwnerService.Domain.pdb
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Domain\obj\Debug\net9.0\ref\OwnerService.Domain.dll

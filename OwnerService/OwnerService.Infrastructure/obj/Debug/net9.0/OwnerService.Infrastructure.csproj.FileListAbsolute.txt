@@ -1,0 +1,15 @@
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\bin\Debug\net9.0\OwnerService.Infrastructure.deps.json
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\bin\Debug\net9.0\OwnerService.Infrastructure.dll
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\bin\Debug\net9.0\OwnerService.Infrastructure.pdb
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\bin\Debug\net9.0\OwnerService.Domain.dll
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\bin\Debug\net9.0\OwnerService.Domain.pdb
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\obj\Debug\net9.0\OwnerService.Infrastructure.csproj.AssemblyReference.cache
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\obj\Debug\net9.0\OwnerService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\obj\Debug\net9.0\OwnerService.Infrastructure.AssemblyInfoInputs.cache
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\obj\Debug\net9.0\OwnerService.Infrastructure.AssemblyInfo.cs
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\obj\Debug\net9.0\OwnerService.Infrastructure.csproj.CoreCompileInputs.cache
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\obj\Debug\net9.0\OwnerSer.7C8E51EC.Up2Date
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\obj\Debug\net9.0\OwnerService.Infrastructure.dll
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\obj\Debug\net9.0\refint\OwnerService.Infrastructure.dll
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\obj\Debug\net9.0\OwnerService.Infrastructure.pdb
+D:\RealEstate-WorkSpace\OwnerService\OwnerService.Infrastructure\obj\Debug\net9.0\ref\OwnerService.Infrastructure.dll

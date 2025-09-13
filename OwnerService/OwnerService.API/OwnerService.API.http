@@ -1,0 +1,6 @@
+@OwnerService.API_HostAddress = http://localhost:5124
+
+GET {{OwnerService.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

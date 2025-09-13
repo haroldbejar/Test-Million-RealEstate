@@ -1,0 +1,15 @@
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\bin\Debug\net9.0\AuthService.Infrastructure.deps.json
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\bin\Debug\net9.0\AuthService.Infrastructure.dll
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\bin\Debug\net9.0\AuthService.Infrastructure.pdb
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\bin\Debug\net9.0\AuthService.Domain.dll
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\bin\Debug\net9.0\AuthService.Domain.pdb
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\obj\Debug\net9.0\AuthService.Infrastructure.csproj.AssemblyReference.cache
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\obj\Debug\net9.0\AuthService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\obj\Debug\net9.0\AuthService.Infrastructure.AssemblyInfoInputs.cache
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\obj\Debug\net9.0\AuthService.Infrastructure.AssemblyInfo.cs
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\obj\Debug\net9.0\AuthService.Infrastructure.csproj.CoreCompileInputs.cache
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\obj\Debug\net9.0\AuthServ.03063B79.Up2Date
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\obj\Debug\net9.0\AuthService.Infrastructure.dll
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\obj\Debug\net9.0\refint\AuthService.Infrastructure.dll
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\obj\Debug\net9.0\AuthService.Infrastructure.pdb
+D:\RealEstate-WorkSpace\AuthService\AuthService.Infrastructure\obj\Debug\net9.0\ref\AuthService.Infrastructure.dll

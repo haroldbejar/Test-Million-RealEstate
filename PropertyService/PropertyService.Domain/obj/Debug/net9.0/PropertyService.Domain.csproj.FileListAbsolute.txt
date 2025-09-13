@@ -1,0 +1,12 @@
+D:\RealEstate-WorkSpace\PropertyService\PropertyService.Domain\bin\Debug\net9.0\PropertyService.Domain.deps.json
+D:\RealEstate-WorkSpace\PropertyService\PropertyService.Domain\bin\Debug\net9.0\PropertyService.Domain.dll
+D:\RealEstate-WorkSpace\PropertyService\PropertyService.Domain\bin\Debug\net9.0\PropertyService.Domain.pdb
+D:\RealEstate-WorkSpace\PropertyService\PropertyService.Domain\obj\Debug\net9.0\PropertyService.Domain.csproj.AssemblyReference.cache
+D:\RealEstate-WorkSpace\PropertyService\PropertyService.Domain\obj\Debug\net9.0\PropertyService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\RealEstate-WorkSpace\PropertyService\PropertyService.Domain\obj\Debug\net9.0\PropertyService.Domain.AssemblyInfoInputs.cache
+D:\RealEstate-WorkSpace\PropertyService\PropertyService.Domain\obj\Debug\net9.0\PropertyService.Domain.AssemblyInfo.cs
+D:\RealEstate-WorkSpace\PropertyService\PropertyService.Domain\obj\Debug\net9.0\PropertyService.Domain.csproj.CoreCompileInputs.cache
+D:\RealEstate-WorkSpace\PropertyService\PropertyService.Domain\obj\Debug\net9.0\PropertyService.Domain.dll
+D:\RealEstate-WorkSpace\PropertyService\PropertyService.Domain\obj\Debug\net9.0\refint\PropertyService.Domain.dll
+D:\RealEstate-WorkSpace\PropertyService\PropertyService.Domain\obj\Debug\net9.0\PropertyService.Domain.pdb
+D:\RealEstate-WorkSpace\PropertyService\PropertyService.Domain\obj\Debug\net9.0\ref\PropertyService.Domain.dll
