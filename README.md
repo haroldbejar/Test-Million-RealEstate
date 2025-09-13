@@ -27,9 +27,9 @@ Tabla de Contenido
 
 10 [Consideraciones y Mejoras Futuras] 
 
- 
+ ________________________________________________________________________________________
 
-Arquitectura del Proyecto 
+1. Arquitectura del Proyecto 
 
 La solución está compuesta por: 
 
@@ -51,7 +51,7 @@ Bases de Datos: cada microservicio tiene su propia base de datos MongoDB.
 
 Orquestación: contenedores Docker gestionados con docker-compose. 
 
-Tecnologías Utilizadas 
+2. Tecnologías Utilizadas 
 
 Backend 
 
@@ -65,7 +65,7 @@ DevOps
 
 Docker, docker-compose 
 
-Estructura de Carpetas 
+3. Estructura de Carpetas 
 REALSTATE-WORKSPACE/ 
 ├── API Gateway/ 
 │   ├── ApiGateway/ 
@@ -106,21 +106,29 @@ REALSTATE-WORKSPACE/
 ├── docker-compose.yml 
 └── Million-RealEstate.sln 
 
-Requisitos Previos 
+4. Requisitos Previos 
 
 .NET SDK 9.0+ Node.js 20+ npm 10+ Docker Desktop Git 
 
-Instalación y Ejecución 
+5. Instalación y Ejecución 
 
 Clonar el repositorio git clone https://github.com/haroldbejar/Test-Million-RealEstate.git 
 
 Levantar la infraestructura con Docker docker-compose up --build -d 
 
 Verificar que los contenedores estén corriendo docker ps 
+El flujo de la app es el siguiente:
+- al correr la aplicacio; aparece el dashboard mostrando las propiedades exsitenes.
+- para crear una propiedad se debe estar logueado y tener un codigo valido de propietario
+- los propietarios se registran ingresando en la opcion registrar, una vez se diligencia el formulario y se envia;
+  este devuelve en un modal el codigo unico del propietario
+- la opcion de crear se habilita una vez este el usuario admin logueadol (no hay formulario de usuarios, se crea por postmas o swagger)
+- una vez logueado aparece la opción de crear y se procede a diligenciarlo para crear las propiedades
+  
 
  
 
-Endpoints y API Gateway 
+6. Endpoints y API Gateway 
 
 El archivo de configuración de Ocelot (ocelot.json) define el enrutamiento. 
 
